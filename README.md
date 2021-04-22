@@ -1,6 +1,8 @@
 # longscroll-qt
 [![Build Status](https://travis-ci.org/TripleWhy/longscroll-qt.svg?branch=master)](https://travis-ci.org/TripleWhy/longscroll-qt) [![Build status](https://ci.appveyor.com/api/projects/status/wpkj3f4oca4umh4t/branch/master?svg=true)](https://ci.appveyor.com/project/TripleWhy/longscroll-qt/branch/master)
 
+![icon](doxygen/img/longscroll-qt-icon-128.png)
+
 longscroll-qt is a C++ library to create very long, fast and responsive scrollable widgets in Qt.
 
 The longscroll widget can visualize a large list of items, similar to a QAbstractItemView.
@@ -23,7 +25,7 @@ The library comes with two [examples](examples). To understand the behavior best
 The documentation of [longscroll::ContentWidget](https://triplewhy.gitlab.io/longscroll-qt/doc/classlongscroll_1_1_content_widget.html) can give a good overview of what longscroll-qt can do, as most of its functionality is provided by that class.
 
 ## Stylesheets
-longscroll-qt widgets can be styled like any other widget. Since longscroll-qt uses a the namespace, `longscroll` by default, stylesheets have to specify it too. For example:
+longscroll-qt widgets can be styled like any other widget. Since longscroll-qt uses a namespace, `longscroll` by default, stylesheets have to specify it too. For example:
 ```css
 longscroll--ContentWidget {
 	background: blue;
